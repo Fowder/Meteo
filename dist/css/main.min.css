@@ -1,0 +1,50 @@
+.box {
+  display: flex;
+  width: 600px;
+  height: auto;
+  align-items: center;
+  margin-top: 100px;
+  border: 1px solid black; }
+
+#map {
+  height: 300px;
+  width: 300px;
+  float: left; }
+
+#ville {
+  width: 400px; }
+
+#selec {
+  width: 417px;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 5px; }
+
+#selec:hover {
+  background-color: #ffa600;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer; }
+
+#selec:focus {
+  background-color: red; }
+
+.rechercher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  flex-wrap: wrap;
+  flex-direction: column; }
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column; }
+
+#InnerBox {
+  float: right; }

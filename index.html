@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="dist/css/main.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <title>Meteo</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="rechercher">
+                <p>
+                        <label>
+                          <input id="ville" placeholder="Entrez une ville" autocomplete="off" size="50">
+                        </label>
+                      </p>
+                      <ul>
+                        <li data-vicopo="#ville">
+                          <span data-vicopo-ville></span>
+                        </li>
+                      </ul>
+                <button onclick="this.blur()" id="selec">Rechercher<i class="fa fa-angle-right" style="font-size:24px"></i></button>
+        </div>
+        
+        <div class="box">
+            <div class="map"></div>
+            <div id="InnerBox"></div>
+        </div>
+    </div>
+
+        <script src="dist/js/jquery.min.js"></script>
+        <script src="https://vicopo.selfbuild.fr/api.js"></script>
+        <script src="dist/js/app.min.js"></script>
+        <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+</body>
+</html>

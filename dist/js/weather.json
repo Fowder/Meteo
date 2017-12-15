@@ -1,0 +1,32 @@
+{"coord":
+    {"lon":1.44,"lat":44.45},
+"weather":
+    [{"id":310,
+        "main":"Drizzle",
+        "description":"light intensity drizzle rain",
+        "icon":"09n"}],
+"base":"stations",
+"main":
+    {"temp":282.15,
+        "pressure":1005,
+        "humidity":87,
+        "temp_min":282.15,
+        "temp_max":282.15},
+"visibility":10000,
+"wind":
+    {"speed":6.2,
+        "deg":250,
+        "gust":13.9},
+"clouds":
+    {"all":92},
+"dt":1513283400,
+"sys":
+    {"type":1,
+        "id":5651,
+        "message":0.0028,
+        "country":"FR",
+        "sunrise":1513236213,
+        "sunset":1513268110},
+        "id":3029213,
+        "name":"Cahors",
+        "cod":200}
